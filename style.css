@@ -1,11 +1,14 @@
 body {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  background-color: #999999;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #4a250cab;
+  font-family: 'Kantumruy Pro', sans-serif;
 }
 
 h1 {
   color: white;
+  font-size: 20px;
 }
 
 input {
@@ -37,3 +40,19 @@ button:hover {
   padding: 10px;
   margin: 10px;
 }
+
+.moviesAndImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.movieListContainer {
+  padding: 20px;
+}
+
+.imageContainer {
+  padding: 20px;
+}
+

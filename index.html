@@ -3,17 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js" charset="utf-8"></script>
     <title>TMDB Movie Search</title>
   </head>
-  <body>
-    <h1>TMDB Movie Search</h1>
-    <div class="search-section">
-      <input type="text" id="search-input" placeholder="Movie Title" />
-      <button id="search">Search</button>
+
+<body>
+    <div class="searchContainer">
+      <h1>TMDB Movie Search</h1>
+      <div class="search-section">
+        <input type="text" id="search-input" placeholder="Movie Title" />
+        <button id="search">Search</button>
+      </div>
     </div>
-    <section class="movie-list">
-    </section>
-  </body>
+
+  <div class="moviesAndImages">
+    <div class="movieListContainer">
+      <section class="movie-list"></section>
+    </div>
+
+    <div class="imageContainer">
+      <div class="image"></div>
+    </div>
+  </div>
+  
+</body>
 </html>
